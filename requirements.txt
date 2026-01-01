@@ -1,0 +1,7 @@
+streamlit>=1.24
+pandas
+numpy
+scikit-learn
+joblib
+matplotlib
+reportlab
