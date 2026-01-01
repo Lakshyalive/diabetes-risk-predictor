@@ -4,6 +4,11 @@
 
 Built with Python, scikit-learn and Streamlit. The model is a **logistic regression pipeline** trained on a large dataset (700,000 samples). The project focuses on clarity, reproducibility, and explainability — *not* medical diagnosis.
 
+## 🚀 Live Demo
+
+👉 **Try the app here:**  
+[![Streamlit App](https://img.shields.io/badge/Live%20Demo-Streamlit-red)](https://diabetes-risk-prediction-application.streamlit.app/)
+
 ---
 
 ## 🔹 Quick Features
