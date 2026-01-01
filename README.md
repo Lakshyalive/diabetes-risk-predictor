@@ -197,35 +197,6 @@ cp model/oof_roc_curve.png screenshots/oof_roc_curve.png
 
 ---
 
-## 📤 Deployment (my recommendation)
-
-**Recommended**: deploy to **Streamlit Community Cloud** — simple, free, and provides a public URL you can share with recruiters.
-
-Steps:
-
-1. Push your repo to GitHub (see next section).
-2. Go to [https://share.streamlit.io](https://share.streamlit.io) → connect to GitHub → select repository and branch → `app.py` as main file → Deploy.
-3. Add the public link to your resume / portfolio.
-
-Why not self-host or Dockerize for now? Because Streamlit Cloud is faster, free, and good enough for portfolio demos. If you intend to productionize for many users or need privacy, then consider Docker+cloud VM later.
-
----
-
-## 🔁 Git: push to GitHub (exact commands)
-
-```bash
-git init
-git add .
-git commit -m "Initial commit — Diabetes Risk Predictor"
-git branch -M main
-git remote add origin git@github.com:<your-username>/<repo-name>.git
-git push -u origin main
-```
-
-Then connect repository to Streamlit Community Cloud.
-
----
-
 ## ⚖️ Legal & Ethical Disclaimer (must include)
 
 **Important:** This tool is for educational and informational purposes only. It is **not** a medical diagnostic device and should **not** be used as a substitute for professional medical advice, diagnosis, or treatment. Always consult a qualified healthcare provider for any medical concerns.
